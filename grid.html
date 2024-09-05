@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid{
+            display: grid;
+            grid-template-columns:repeat(4,1fr);
+            grid-template-rows: repeat(8,40px);
+            column-gap: 10px;
+            row-gap: 10px;
+        }
+        .child{
+            background-color: yellow;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+
+        }
+        .one{
+            grid-column: 1/5;
+            grid-row: 1/5;
+        }
+        .two{
+            grid-column: 1/2;
+            grid-row:5/9;
+        }
+        .three{
+            grid-column: 2/3;
+            grid-row:5/6 ;
+        }
+        .six{
+            grid-column: 2/3;
+            grid-row:6/9;
+        }
+        .four{
+            grid-column: 3/4;
+            grid-row: 5/7;
+        }
+        .seven{
+            grid-column: 3/4;
+            grid-row:7/8;
+        }
+        .eight{
+            grid-column: 3/4;
+            grid-row:8/9;
+        }
+        .five{
+            grid-column: 4/5;
+            grid-row: 5/8;
+        }
+        .nine{
+            grid-column: 4/5;
+            grid-row: 8/9;
+        }
+        .parent{
+            display: grid;
+            grid-template-columns:repeat(12,1fr);
+            grid-template-rows: repeat(6,40px);
+            column-gap:20px;
+            row-gap: 20px;
+        }
+        .color{
+            background-color: green;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        .red{
+            grid-column: 1/13;
+            grid-row: 1/2;
+        }
+        .green{
+            grid-column:1 /7;
+            grid-row: 2/3;
+        }
+        .blue{
+            grid-column:7/13;
+            grid-row: 2/3;
+        }
+        .yellow{
+            grid-column:1/5 ;
+            grid-row:3/4;
+        }
+        .pink{
+            grid-column: 5/8;
+            grid-row: 3/4;
+        }
+        .black{
+            grid-column: 8/13;
+            grid-row: 3/4;
+        }
+        .purple{
+            grid-column: 1/4;
+            grid-row: 4/5;
+        }
+        .brown{
+            grid-column:4/7 ;
+            grid-row: 4/5;
+        }
+        .white{
+            grid-column: 7/10;
+            grid-row:4 /5;
+        }
+        .orange{
+            grid-column: 10/13;
+            grid-row: 4/5;
+        }
+        .navy{
+            grid-column: 1/3;
+            grid-row:5/6;
+        }
+        .light{
+            grid-column: 3/5;
+            grid-row:5/6;
+        }
+        .rgb{
+            grid-column: 5/7;
+            grid-row:5/6;
+        }
+        .hel{
+            grid-column: 7/9;
+            grid-row:5/6;
+        }
+        .hela{
+            grid-column: 9/11;
+            grid-row:5/6;
+        }
+        .rgba{
+            grid-column: 11/13;
+            grid-row:5/6;
+        }
+        </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="child one">1</div>
+        <div class="child two">2</div>
+        <div class="child three">3</div>
+        <div class="child four">4</div>
+        <div class="child five">5</div>
+        <div class="child six">6</div>
+        <div class="child seven">7</div>
+        <div class="child eight">8</div>
+        <div class="child nine">9</div>
+        </div>
+        <br><br><br><br><br><br>
+        <div class="parent">
+            <div class="color red">1</div>
+            <div class="color green">2</div>
+            <div class="color blue">3</div>
+            <div class="color yellow">4</div>
+            <div class="color pink">5</div>
+            <div class="color black">6</div>
+            <div class="color purple">7</div>
+            <div class="color brown">8</div>
+            <div class="color white">9</div>
+            <div class="color orange">10</div>
+            <div class="color navy">11</div>
+            <div class="color light">12</div>
+            <div class="color rgb">13</div>
+            <div class="color hel">14</div>
+            <div class="color hela">15</div>
+            <div class="color rgba">16</div>
+            <div class="color hex">17</div>
+            <div class="color voilet">18</div>
+            <div class="color heavy">19</div>
+            <div class="color no">20</div>
+            <div class="color main">21</div>
+            <div class="color yes">22</div>
+            <div class="color of">23</div>
+            <div class="color off">24</div>
+            <div class="color offf">25</div>
+            <div class="color offff">26</div>
+            <div class="color offfff">27</div>
+            <div class="color on">28</div>
+        </div>
+        <br><br><br>
+</body>
+</html>
